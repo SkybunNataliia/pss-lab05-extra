@@ -23,10 +23,16 @@ public class CommonAnimal implements Animal {
         this.species = species;
     }
 
+    /**
+     * @return the name of the animal family
+     */
     public String getFamily() {
         return this.family;
     }
 
+    /**
+     * @return the name of animal specie
+     */
     public String getSpecies() {
         return this.species;
     }
