@@ -4,6 +4,19 @@ package it.unibo.animal;
  * Represents a physical animal with fundamental characteristicsand behaviors common to animals in general.
  */
 public interface Animal {
+
+    /**
+     * Return the family that animal belongs to.
+     * @return the name of animals family name.
+     */
+    String getFamily();
+
+    /**
+     * Return the specie of animal.
+     * @return the name of animals species.
+     */
+    String getSpecies();
+
     /**
      * Check if the animal passed as parameter can be eaten by this animal.
      * Only carnivores can eat other animals, and only animals that weigh less than the eater can be eaten.

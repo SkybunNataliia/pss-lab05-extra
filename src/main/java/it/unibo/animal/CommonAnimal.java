@@ -9,15 +9,21 @@ public class CommonAnimal implements Animal {
 
     protected final double weight;
     protected final Diet diet;
+    protected final String family;
+    protected final String species;
 
     /**
      * Constructor of common animal/
      * @param weight
      */
-    protected CommonAnimal(final double weight, final Diet diet) {
+    protected CommonAnimal(final double weight, final Diet diet, final String family, final String species) {
         this.weight = weight;
         this.diet = diet;
+        this.family = family;
+        this.species = species;
     }
+
+    
    
     /**
      * Check if the animal passed as parameter can be eaten by this animal.
