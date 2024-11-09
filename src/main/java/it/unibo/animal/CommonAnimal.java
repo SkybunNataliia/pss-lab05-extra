@@ -23,7 +23,13 @@ public class CommonAnimal implements Animal {
         this.species = species;
     }
 
-    
+    public String getFamily() {
+        return this.family;
+    }
+
+    public String getSpecies() {
+        return this.species;
+    }
    
     /**
      * Check if the animal passed as parameter can be eaten by this animal.
